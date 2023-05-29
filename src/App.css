@@ -1,0 +1,40 @@
+body {
+    background-image: url("../public/dish-bg.jpg");
+    background-size: cover;
+    font-family: Nunito, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-color: rgba(255, 255, 255, 0.45);
+    width: 30%;
+    border-radius: 25px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 30px 50px;
+}
+
+.App h1 {
+    margin: 0;
+}
+
+.response-container {
+    font-size: 20px;
+}
+
+.button {
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(234, 231, 231);
+    border: 1px solid rgb(166, 166, 166);
+
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+}
